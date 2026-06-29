@@ -1,0 +1,166 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-sans: 'Inter', system-ui, sans-serif;
+    --font-arabic: 'Cairo', system-ui, sans-serif;
+  }
+
+  * {
+    @apply border-slate-200;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+    overflow-x: hidden;
+  }
+
+  body {
+    @apply bg-surface text-ink font-sans antialiased;
+    font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+    overflow-x: hidden;
+  }
+
+  /* Arabic typography optimization */
+  html[dir='rtl'] body {
+    font-family: var(--font-arabic);
+    letter-spacing: 0;
+  }
+
+  html[dir='rtl'] {
+    font-family: var(--font-arabic);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display font-bold tracking-tight text-ink;
+    text-wrap: balance;
+  }
+
+  html[dir='rtl'] h1,
+  html[dir='rtl'] h2,
+  html[dir='rtl'] h3,
+  html[dir='rtl'] h4 {
+    font-family: var(--font-arabic);
+  }
+
+  ::selection {
+    @apply bg-plum-100 text-plum-900;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 11px;
+    height: 11px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-slate-100;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply rounded-full bg-slate-300;
+    border: 2px solid #f1f5f9;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-slate-400;
+  }
+}
+
+@layer components {
+  .container-px {
+    @apply mx-auto w-full max-w-[1360px] px-5 sm:px-6 lg:px-8 xl:px-10;
+  }
+
+  .section-pad {
+    @apply py-16 sm:py-20 lg:py-28;
+  }
+
+  .eyebrow {
+    @apply inline-flex items-center gap-2 rounded-full border border-primary-100 bg-primary-50 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.18em] text-primary-600;
+  }
+
+  html[dir='rtl'] .eyebrow {
+    @apply tracking-normal;
+  }
+
+  .heading-1 {
+    @apply text-[1.95rem] font-extrabold leading-[1.12] sm:text-4xl md:text-5xl lg:text-6xl;
+  }
+
+  .heading-2 {
+    @apply text-2xl font-bold leading-[1.15] sm:text-3xl md:text-4xl lg:text-[2.75rem];
+  }
+
+  .lead {
+    @apply text-base leading-relaxed text-ink-soft sm:text-lg md:text-xl;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-7 py-3.5 text-sm font-semibold transition-all duration-300 ease-premium focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-plum-500 disabled:cursor-not-allowed disabled:opacity-60;
+  }
+
+  .btn-primary {
+    @apply btn bg-primary-900 text-white shadow-[0_10px_30px_-10px_rgba(22,16,24,0.45)] hover:bg-primary-800 hover:shadow-[0_16px_40px_-12px_rgba(22,16,24,0.55)] hover:-translate-y-0.5;
+  }
+
+  .btn-teal {
+    @apply btn bg-plum-600 text-white shadow-[0_10px_30px_-10px_rgba(107,45,74,0.4)] hover:bg-plum-700 hover:-translate-y-0.5;
+  }
+
+  .btn-ghost {
+    @apply btn border border-slate-200 bg-white/80 text-ink hover:border-plum-300 hover:bg-white hover:text-plum-700 hover:-translate-y-0.5;
+  }
+
+  .btn-white {
+    @apply btn bg-white text-primary-900 shadow-lg hover:bg-slate-50 hover:-translate-y-0.5;
+  }
+
+  .btn-outline-white {
+    @apply btn border border-white/40 bg-white/10 text-white backdrop-blur-sm hover:bg-white/20 hover:-translate-y-0.5;
+  }
+
+  .card {
+    @apply rounded-3xl border border-slate-100 bg-white shadow-card transition-all duration-500 ease-premium;
+  }
+
+  .glass {
+    @apply border border-white/40 bg-white/70 backdrop-blur-xl;
+  }
+
+  /* Colored text highlight (no gradient) */
+  .text-highlight {
+    @apply text-plum-600;
+  }
+
+  /* Soft tinted icon badge used across cards */
+  .icon-badge {
+    @apply inline-flex items-center justify-center rounded-2xl bg-primary-50 text-primary-900;
+  }
+
+  .icon-badge-teal {
+    @apply inline-flex items-center justify-center rounded-2xl bg-plum-50 text-plum-600;
+  }
+}
+
+@layer utilities {
+  .logical-start {
+    text-align: start;
+  }
+
+  /* Pause marquee on hover */
+  .marquee-track:hover {
+    animation-play-state: paused;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.001ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.001ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}

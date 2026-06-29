@@ -1,0 +1,368 @@
+{
+  "brand": {
+    "name": "Al-Maani Al-Wataniya",
+    "shortName": "Al-Maani",
+    "tagline": "Importing Medical Equipment, Supplies & Mother and Child Essentials"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "products": "Products",
+    "contact": "Contact",
+    "getInTouch": "Get in Touch",
+    "language": "العربية",
+    "menu": "Menu",
+    "close": "Close"
+  },
+  "common": {
+    "exploreProducts": "Browse Catalog",
+    "contactUs": "Get in Touch",
+    "viewDetails": "See Details",
+    "viewAll": "See Full Catalog",
+    "learnMore": "Discover More",
+    "readMore": "Continue Reading",
+    "sendMessage": "Send Message",
+    "loading": "Loading…",
+    "comingSoon": "Coming Soon",
+    "requestQuote": "Request Pricing"
+  },
+  "home": {
+    "hero": {
+      "badge": "Your Medical Supply Partner",
+      "title": "Medical Equipment & Mother-and-Child Essentials, Delivered with Care",
+      "subtitle": "Al-Maani Al-Wataniya imports and supplies dependable medical devices, clinical consumables, and mother & child essentials — connecting hospitals, clinics, and homes with trusted manufacturers around the world.",
+      "ctaPrimary": "Browse Catalog",
+      "ctaSecondary": "Get in Touch",
+      "floating": {
+        "uptime": "Quality Certified",
+        "uptimeValue": "ISO 13485",
+        "support": "Always Available",
+        "supportValue": "24 / 7",
+        "delivery": "Delivered On Time",
+        "deliveryValue": "99%+"
+      },
+      "imageAlt": "Modern medical equipment arranged in a clean clinical setting"
+    },
+    "intro": {
+      "eyebrow": "About the Company",
+      "title": "Supplying Healthcare with Confidence",
+      "paragraph1": "Al-Maani Al-Wataniya was established to make trusted medical technology easier to obtain. We import a wide range of equipment and supplies directly from reputable international manufacturers and bring them to the providers and families who need them.",
+      "paragraph2": "Our catalog reaches across hospital departments and everyday care alike — from imaging and surgical systems to clinical furniture, consumables, and dedicated mother & child products — all chosen for dependability and value.",
+      "features": {
+        "sourcing": {
+          "title": "Direct Importing",
+          "desc": "We source straight from certified factories across Europe, Asia, and beyond — with no unnecessary middlemen."
+        },
+        "expertise": {
+          "title": "Sector Knowledge",
+          "desc": "Our team understands the clinical, technical, and regulatory side of every product we carry."
+        },
+        "distribution": {
+          "title": "Dependable Supply",
+          "desc": "A well-organized supply line that keeps shelves stocked and orders on schedule."
+        },
+        "support": {
+          "title": "After-Sales Care",
+          "desc": "Installation, guidance, and service that continue long after delivery."
+        }
+      }
+    },
+    "categories": {
+      "eyebrow": "What We Supply",
+      "title": "Everything Modern Care Requires",
+      "subtitle": "Three core ranges covering the equipment, furniture, and consumables that clinics rely on daily.",
+      "items": {
+        "equipment": {
+          "title": "Medical Equipment",
+          "desc": "Imaging, diagnostic, and surgical devices selected for accuracy and long-term reliability."
+        },
+        "furniture": {
+          "title": "Medical Furniture",
+          "desc": "Beds, wheelchairs, trolleys, and ward furnishings designed for comfort and durability."
+        },
+        "supplies": {
+          "title": "Medical Supplies",
+          "desc": "Dressings, protective wear, and everyday consumables that meet international safety norms."
+        }
+      }
+    },
+    "whyUs": {
+      "eyebrow": "Why Work With Us",
+      "title": "A Supplier You Can Count On",
+      "subtitle": "The reasons clinics and hospitals choose Al-Maani Al-Wataniya again and again.",
+      "items": {
+        "quality": {
+          "title": "Verified Quality",
+          "desc": "Each item comes from approved manufacturers and is checked against recognized standards."
+        },
+        "partnerships": {
+          "title": "Trusted Manufacturers",
+          "desc": "Established ties with respected medical brands worldwide."
+        },
+        "distribution": {
+          "title": "Organized Logistics",
+          "desc": "A supply network that delivers accurately, wherever you operate."
+        },
+        "pricing": {
+          "title": "Fair Pricing",
+          "desc": "Clear, honest pricing that respects your budget without cutting corners."
+        },
+        "support": {
+          "title": "Expert Assistance",
+          "desc": "Consultation, training, and responsive support whenever you need it."
+        },
+        "trusted": {
+          "title": "Proven Reliability",
+          "desc": "A dependable record of serving hospitals, clinics, and families."
+        }
+      }
+    },
+    "featured": {
+      "eyebrow": "Selected Products",
+      "title": "Chosen by Care Professionals",
+      "subtitle": "A glimpse into our wider range of medical solutions.",
+      "filters": {
+        "all": "All",
+        "monitoring": "Monitoring",
+        "diagnostic": "Diagnostic",
+        "therapy": "Therapy",
+        "motherChild": "Mother & Child"
+      }
+    },
+    "partners": {
+      "eyebrow": "Worldwide Network",
+      "title": "Backed by Leading Global Manufacturers",
+      "subtitle": "We collaborate with established producers to bring you authentic products."
+    },
+    "certifications": {
+      "eyebrow": "Standards & Compliance",
+      "title": "Held to Recognized Standards",
+      "subtitle": "Our quality commitment is supported by internationally accepted certifications.",
+      "items": {
+        "iso13485": {
+          "title": "ISO 13485",
+          "desc": "Quality management certification specific to medical devices."
+        },
+        "iso9001": {
+          "title": "ISO 9001",
+          "desc": "The global benchmark for sound quality management."
+        },
+        "ce": {
+          "title": "CE Marking",
+          "desc": "Compliance with European health, safety, and environmental requirements."
+        },
+        "fda": {
+          "title": "FDA Compliant",
+          "desc": "Products meeting U.S. Food & Drug Administration expectations."
+        }
+      }
+    },
+    "stats": {
+      "eyebrow": "Our Track Record",
+      "title": "Figures Behind Our Work",
+      "items": {
+        "products": "Products Supplied",
+        "partners": "International Suppliers",
+        "facilities": "Facilities Served",
+        "experience": "Years in the Field"
+      }
+    },
+    "cta": {
+      "title": "Let's Equip Better Care, Together",
+      "subtitle": "Work with us for reliable medical equipment and supplies you can trust.",
+      "button": "Get in Touch"
+    }
+  },
+  "about": {
+    "hero": {
+      "badge": "About Al-Maani Al-Wataniya",
+      "title": "Bringing Trusted Medical Supplies Closer to Care",
+      "subtitle": "We are an importing and supply company focused on delivering quality medical equipment, consumables, and mother & child products to the communities we serve."
+    },
+    "story": {
+      "eyebrow": "Our Story",
+      "title": "Built Around Dependable Supply",
+      "paragraph1": "Al-Maani Al-Wataniya began with a straightforward goal — to make quality medical products easier to access and rely on. From early import work, we have grown into a broad supply operation serving healthcare across the sector.",
+      "paragraph2": "We work with hospitals, clinics, pharmacies, and families, offering a catalog that ranges from diagnostic systems and clinical furniture to everyday consumables and mother & child essentials. Every product we bring in reflects our focus on quality and trust.",
+      "highlight": "What drives us is simple — to connect dependable medical technology with the people who rely on it every day."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "desc": "To supply healthcare providers and families with reliable, quality medical equipment and consumables — imported through trusted manufacturers and delivered with attentive service."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "desc": "To become a leading and trusted medical supply company in the region, known for quality, honesty, and a genuine commitment to better care."
+    },
+    "values": {
+      "eyebrow": "What We Stand For",
+      "title": "The Principles Behind Our Work",
+      "subtitle": "Six values that guide how we choose products and treat our partners.",
+      "items": {
+        "integrity": {
+          "title": "Integrity",
+          "desc": "We deal honestly and openly in every order and relationship."
+        },
+        "excellence": {
+          "title": "Excellence",
+          "desc": "We hold our catalog and service to a high standard."
+        },
+        "innovation": {
+          "title": "Innovation",
+          "desc": "We welcome technology that improves the quality of care."
+        },
+        "reliability": {
+          "title": "Reliability",
+          "desc": "We keep our commitments, order after order."
+        },
+        "quality": {
+          "title": "Quality",
+          "desc": "We never compromise on what keeps patients safe."
+        },
+        "customerFocus": {
+          "title": "Customer Focus",
+          "desc": "We put our partners and the people they care for first."
+        }
+      }
+    },
+    "process": {
+      "eyebrow": "How We Work",
+      "title": "From Sourcing to Your Door",
+      "subtitle": "A clear four-step approach that protects quality at every stage.",
+      "steps": {
+        "sourcing": {
+          "title": "Sourcing",
+          "desc": "We find and partner with certified manufacturers, choosing only products that meet our quality bar."
+        },
+        "inspection": {
+          "title": "Inspection",
+          "desc": "Every shipment is checked and verified against medical standards before it moves on."
+        },
+        "logistics": {
+          "title": "Import & Handling",
+          "desc": "Our team manages customs, compliance, and careful handling to protect each product."
+        },
+        "distribution": {
+          "title": "Delivery & Support",
+          "desc": "We deliver on schedule and stand behind every order with installation and support."
+        }
+      }
+    },
+    "quality": {
+      "eyebrow": "Quality Assurance",
+      "title": "Quality You Can Check",
+      "subtitle": "Our quality approach safeguards patients and partners at every step.",
+      "points": {
+        "certified": "Sourced only from ISO and CE certified manufacturers",
+        "inspection": "Every incoming shipment inspected at multiple points",
+        "traceability": "Complete documentation and traceability for each product",
+        "coldchain": "Careful, validated handling for temperature-sensitive items",
+        "compliance": "Ongoing alignment with international regulatory standards",
+        "audit": "Routine supplier audits and performance checks"
+      }
+    },
+    "partnerships": {
+      "eyebrow": "Global Partnerships",
+      "title": "Linked to Respected Makers Worldwide",
+      "desc": "Our network is our foundation. We hold direct, lasting relationships with leading manufacturers across Europe, Asia, and North America — giving our partners genuine, up-to-date medical products with full factory support."
+    }
+  },
+  "products": {
+    "hero": {
+      "badge": "Our Catalog",
+      "title": "Browse Our Medical Range",
+      "subtitle": "A broad selection of medical equipment, furniture, and supplies — imported from manufacturers we trust."
+    },
+    "search": {
+      "placeholder": "Search the catalog…",
+      "noResults": "Nothing matches your search.",
+      "resultsCount": "{{count}} products found",
+      "clear": "Reset filters"
+    },
+    "filters": {
+      "all": "All Products",
+      "equipment": "Medical Equipment",
+      "furniture": "Medical Furniture",
+      "supplies": "Medical Supplies"
+    },
+    "modal": {
+      "category": "Category",
+      "keyFeatures": "Key Features",
+      "enquire": "Ask About This Product",
+      "close": "Close"
+    }
+  },
+  "contact": {
+    "hero": {
+      "badge": "Get in Touch",
+      "title": "Let's Talk About What You Need",
+      "subtitle": "Have a question about a product or want to begin a supply partnership? Our team is here to help."
+    },
+    "info": {
+      "phone": {
+        "title": "Call Us",
+        "value": "+218 91 020 0962",
+        "note": "Saturday – Thursday"
+      },
+      "email": {
+        "title": "Email Us",
+        "value": "info@almaanialwataniya.com",
+        "note": "We reply within 24 hours"
+      },
+      "address": {
+        "title": "Visit Us",
+        "value": "Libya",
+        "note": "Head Office"
+      },
+      "hours": {
+        "title": "Working Hours",
+        "value": "9:00 AM – 5:00 PM",
+        "note": "Saturday – Thursday"
+      }
+    },
+    "form": {
+      "title": "Send Us a Message",
+      "subtitle": "Complete the form and our team will respond shortly.",
+      "name": "Full Name",
+      "namePlaceholder": "Enter your full name",
+      "email": "Email Address",
+      "emailPlaceholder": "you@example.com",
+      "phone": "Phone Number",
+      "phonePlaceholder": "+218 9X XXX XXXX",
+      "subject": "Subject",
+      "subjectPlaceholder": "How can we help?",
+      "message": "Message",
+      "messagePlaceholder": "Tell us more about what you need…",
+      "submit": "Send Message",
+      "submitting": "Sending…",
+      "success": "Thank you! Your message has been sent — we'll be in touch soon.",
+      "errors": {
+        "nameRequired": "Please enter your name.",
+        "emailRequired": "Please enter your email address.",
+        "emailInvalid": "Please enter a valid email address.",
+        "phoneInvalid": "Please enter a valid phone number.",
+        "subjectRequired": "Please enter a subject.",
+        "messageRequired": "Please enter your message.",
+        "messageShort": "Your message is a little short."
+      }
+    },
+    "map": {
+      "title": "Find Us in Libya",
+      "placeholder": "Interactive map"
+    }
+  },
+  "footer": {
+    "description": "Al-Maani Al-Wataniya is a medical supply company importing and delivering quality medical equipment, consumables, and mother & child products through trusted international manufacturers.",
+    "quickLinks": "Quick Links",
+    "categories": "Product Categories",
+    "contactTitle": "Contact",
+    "newsletter": "Stay Updated",
+    "newsletterDesc": "Subscribe for news on our latest medical products.",
+    "newsletterPlaceholder": "Your email address",
+    "subscribe": "Subscribe",
+    "rights": "All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "madeWith": "Equipping better care, together."
+  }
+}

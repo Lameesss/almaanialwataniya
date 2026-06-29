@@ -1,0 +1,6 @@
+# Al-Maani Al-Wataniya — allow all crawlers
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://almaanialwataniya.com/sitemap.xml
