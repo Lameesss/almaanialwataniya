@@ -16,7 +16,7 @@ export default function Logo({ onClick, className = '' }) {
       <img
         src={logoSrc}
         alt={t('brand.name')}
-        className="h-[4.5rem] w-[8.5rem] flex-none object-contain transition-transform duration-500 ease-premium group-hover:scale-105 sm:h-[5.5rem] sm:w-[14rem] lg:h-[6rem] lg:w-[15rem]"
+        className="-my-3 h-[7rem] w-[10rem] flex-none object-contain transition-transform duration-500 ease-premium group-hover:scale-105 sm:-my-4 sm:h-[8.5rem] sm:w-[16rem] lg:-my-5 lg:h-[10rem] lg:w-[18rem]"
       />
     </Link>
   );

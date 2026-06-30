@@ -58,8 +58,8 @@ export default function Navbar() {
         transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
         className={`fixed inset-x-0 top-0 z-50 transition-all duration-500 ease-premium ${
           scrolled || open
-            ? 'border-b border-primary-100/60 bg-white/90 py-2 shadow-nav backdrop-blur-xl'
-            : 'border-b border-transparent bg-transparent py-3'
+            ? 'border-b border-primary-100/60 bg-white/90 py-1 shadow-nav backdrop-blur-xl'
+            : 'border-b border-transparent bg-transparent py-1.5'
         }`}
       >
         <nav className="container-px flex items-center justify-between">
